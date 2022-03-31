@@ -38,6 +38,7 @@ func skipWithoutSolc(t *testing.T) {
 	}
 }
 
+
 func TestCompiler(t *testing.T) {
 	skipWithoutSolc(t)
 
