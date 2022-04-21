@@ -49,6 +49,7 @@ func init() {
 	blockCacheMaxItems = 1024
 }
 
+
 // downloadTester is a test simulator for mocking out local block chain.
 type downloadTester struct {
 	downloader *Downloader
