@@ -20,18 +20,19 @@ import _ "github.com/Aurorachain-io/go-aoa"
 
 // Verify that Client implements the dacchain interfaces.
 //var (
-//	_ = dacchain.ChainReader(&Client{})
-//	_ = dacchain.TransactionReader(&Client{})
+//	_ = aoachain.ChainReader(&Client{})
+//	_ = aoachain.TransactionReader(&Client{})
 
-//	_ = dacchain.ChainStateReader(&Client{})
-//	_ = dacchain.ChainSyncReader(&Client{})
-//	_ = dacchain.ContractCaller(&Client{})
-//	_ = dacchain.GasEstimator(&Client{})
-//	_ = dacchain.GasPricer(&Client{})
-//	_ = dacchain.LogFilterer(&Client{})
-//	_ = dacchain.PendingStateReader(&Client{})
-//	// _ = dacchain.PendingStateEventer(&Client{})
-//	_ = dacchain.PendingContractCaller(&Client{})
+//	_ = aoachain.ChainStateReader(&Client{})
+//	_ = aoachain.ChainSyncReader(&Client{})
+//	_ = aoachain.ContractCaller(&Client{})
+//	_ = aoachain.GasEstimator(&Client{})
+//	_ = aoachain.GasPricer(&Client{})
+//	_ = aoachain.LogFilterer(&Client{})
+//	_ = aoachain.PendingStateReader(&Client{})
+//	// _ = aoachain.PendingStateEventer(&Client{})
+//	_ = aoachain.PendingContractCaller(&Client{})
+
 
 //)
 // 
