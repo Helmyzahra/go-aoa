@@ -18,6 +18,7 @@ package vm
 
 import "testing"
 
+
 func TestJumpDestAnalysis(t *testing.T) {
 	tests := []struct {
 		code  []byte
