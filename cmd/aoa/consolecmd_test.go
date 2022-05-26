@@ -30,6 +30,7 @@ import (
 	"github.com/Aurorachain-io/go-aoa/params"
 )
 
+
 const (
 	ipcAPIs  = "admin:1.0 debug:1.0 em:1.0 miner:1.0 net:1.0 personal:1.0 rpc:1.0 shh:1.0 txpool:1.0 web3:1.0"
 	httpAPIs = "em:1.0 net:1.0 rpc:1.0 web3:1.0"
