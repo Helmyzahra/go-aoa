@@ -49,6 +49,7 @@ func TestClientRequest(t *testing.T) {
 	}
 }
 
+
 func TestClientBatchRequest(t *testing.T) {
 	server := newTestServer("service", new(Service))
 	defer server.Stop()
