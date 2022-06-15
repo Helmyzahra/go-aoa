@@ -52,6 +52,7 @@ func (b *DacApiBackend) GetDelegateWalletInfoCallback() func(data *aa.DelegateWa
 	return b.dac.protocolManager.GetAddDelegateWalletCallback()
 }
 
+
 func (b *DacApiBackend) CurrentBlock() *types.Block {
 	return b.dac.blockchain.CurrentBlock()
 }
