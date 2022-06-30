@@ -58,6 +58,7 @@ func (msg Msg) Decode(val interface{}) error {
 	return nil
 }
 
+
 func (msg Msg) String() string {
 	return fmt.Sprintf("msg #%v (%v bytes)", msg.Code, msg.Size)
 }
