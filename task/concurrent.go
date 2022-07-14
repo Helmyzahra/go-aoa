@@ -30,6 +30,7 @@ func NewAtomicInt64(initialValue int64) *AtomicInt64 {
 	return &a
 }
 
+
 // Get returns the value of int64 atomically.
 func (a *AtomicInt64) Get() int64 {
 	return int64(*a)
