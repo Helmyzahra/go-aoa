@@ -21,6 +21,7 @@ import (
 	"testing"
 )
 
+
 func TestHexCompact(t *testing.T) {
 	tests := []struct{ hex, compact []byte }{
 		// empty keys, with and without terminator.
