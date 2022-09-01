@@ -28,6 +28,7 @@ import (
 	"github.com/Aurorachain-io/go-aoa/p2p"
 )
 
+
 // Tests that datadirs can be successfully created, be them manually configured
 // ones or automatically generated temporary ones.
 func TestDatadirCreation(t *testing.T) {
