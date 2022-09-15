@@ -42,6 +42,7 @@ type hookedPrompter struct {
 	scheduler chan string
 }
 
+
 func (p *hookedPrompter) PromptInput(prompt string) (string, error) {
 	// Send the prompt to the tester
 	select {
