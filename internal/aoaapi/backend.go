@@ -20,7 +20,6 @@ package aoaapi
 import (
 	"context"
 	"math/big"
-
 	"github.com/Aurorachain-io/go-aoa/accounts"
 	aa "github.com/Aurorachain-io/go-aoa/accounts/walletType"
 	"github.com/Aurorachain-io/go-aoa/common"
