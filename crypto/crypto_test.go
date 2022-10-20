@@ -45,6 +45,7 @@ func TestKeccak256Hash(t *testing.T) {
 	checkhash(t, "Sha3-256-array", func(in []byte) []byte { h := Keccak256Hash(in); return h[:] }, msg, exp)
 }
 
+
 func TestToECDSAErrors(t *testing.T) {
 	if _, err := HexToECDSA("0000000000000000000000000000000000000000000000000000000000000000"); err == nil {
 		t.Fatal("HexToECDSA should've returned error")
