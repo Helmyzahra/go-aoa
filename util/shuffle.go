@@ -27,6 +27,7 @@ import (
 	"time"
 )
 
+
 func Shuffle(height int64, delegateNumber int) []int {
 	var truncDelegateList []int
 
