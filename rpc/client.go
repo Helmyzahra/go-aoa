@@ -31,7 +31,6 @@ import (
 	"sync"
 	"sync/atomic"
 	"time"
-
 	"github.com/Aurorachain-io/go-aoa/log"
 )
 
