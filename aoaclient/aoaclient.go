@@ -31,6 +31,7 @@ import (
 	"math/big"
 )
 
+
 // Client defines typed wrappers for the dacchain RPC API.
 type Client struct {
 	c *rpc.Client
