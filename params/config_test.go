@@ -23,6 +23,7 @@ import (
 )
 
 
+
 func TestCheckCompatible(t *testing.T) {
 	type test struct {
 		stored, new *ChainConfig
