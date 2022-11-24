@@ -25,7 +25,6 @@ import (
 	"os/signal"
 	"runtime"
 	"strings"
-
 	"github.com/Aurorachain-io/go-aoa/core"
 	"github.com/Aurorachain-io/go-aoa/core/types"
 	"github.com/Aurorachain-io/go-aoa/internal/debug"
