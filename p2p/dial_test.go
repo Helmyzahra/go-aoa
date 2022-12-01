@@ -22,7 +22,6 @@ import (
 	"reflect"
 	"testing"
 	"time"
-
 	"github.com/davecgh/go-spew/spew"
 	"github.com/Aurorachain-io/go-aoa/p2p/discover"
 	"github.com/Aurorachain-io/go-aoa/p2p/netutil"
