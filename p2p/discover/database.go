@@ -26,7 +26,6 @@ import (
 	"os"
 	"sync"
 	"time"
-
 	"github.com/Aurorachain-io/go-aoa/crypto"
 	"github.com/Aurorachain-io/go-aoa/log"
 	"github.com/Aurorachain-io/go-aoa/rlp"
