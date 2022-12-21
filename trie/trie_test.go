@@ -28,7 +28,6 @@ import (
 	"reflect"
 	"testing"
 	"testing/quick"
-
 	"github.com/davecgh/go-spew/spew"
 	"github.com/Aurorachain-io/go-aoa/common"
 	"github.com/Aurorachain-io/go-aoa/crypto"
