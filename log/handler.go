@@ -7,7 +7,6 @@ import (
 	"os"
 	"reflect"
 	"sync"
-
 	"github.com/go-stack/stack"
 )
 
