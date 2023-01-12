@@ -22,7 +22,6 @@ import (
 	"sync"
 	"sync/atomic"
 	"time"
-
 	"github.com/Aurorachain-io/go-aoa/common"
 	"github.com/Aurorachain-io/go-aoa/consensus"
 	"github.com/Aurorachain-io/go-aoa/core"
