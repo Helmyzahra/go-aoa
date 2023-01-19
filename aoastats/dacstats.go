@@ -43,7 +43,6 @@ import (
 	"golang.org/x/net/websocket"
 )
 
-
 const (
 	// historyUpdateRange is the number of blocks a node should report upon login or
 	// history request.
