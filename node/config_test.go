@@ -63,6 +63,7 @@ func TestDatadirCreation(t *testing.T) {
 	}
 }
 
+
 // Tests that IPC paths are correctly resolved to valid endpoints of different
 // platforms.
 func TestIPCPathResolution(t *testing.T) {
