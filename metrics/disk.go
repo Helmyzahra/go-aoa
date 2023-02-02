@@ -23,3 +23,4 @@ type DiskStats struct {
 	WriteCount int64 // Number of write operations executed
 	WriteBytes int64 // Total number of byte written
 }
+
