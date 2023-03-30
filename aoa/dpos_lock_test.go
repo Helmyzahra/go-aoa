@@ -121,6 +121,7 @@ func TestNew(t *testing.T) {
 	fmt.Printf("addPendingBlockAndSign finish cost time(s):%d\n", time.Now().Unix()-startTime)
 }
 
+
 // fetchKeystore retrives the encrypted keystore from the account manager.
 func fetchKeystore(am *accounts.Manager) *keystore.KeyStore {
 	return am.Backends(keystore.KeyStoreType)[0].(*keystore.KeyStore)
