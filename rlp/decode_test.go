@@ -28,7 +28,6 @@ import (
 	"testing"
 )
 
-
 func TestStreamKind(t *testing.T) {
 	tests := []struct {
 		input    string
