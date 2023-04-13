@@ -34,6 +34,8 @@ func TestSubCloseUnsub(t *testing.T) {
 	sub.Unsubscribe()
 }
 
+
+
 func TestSub(t *testing.T) {
 	mux := new(TypeMux)
 	defer mux.Stop()
