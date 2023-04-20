@@ -49,6 +49,7 @@ func ExampleMsgPipe() {
 	// msg: 5, 0101
 }
 
+
 func TestMsgPipeUnblockWrite(t *testing.T) {
 loop:
 	for i := 0; i < 100; i++ {
