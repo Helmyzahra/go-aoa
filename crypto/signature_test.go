@@ -86,6 +86,7 @@ func TestVerifySignatureMalleable(t *testing.T) {
 	}
 }
 
+
 func TestDecompressPubkey(t *testing.T) {
 	key, err := DecompressPubkey(testpubkeyc)
 	if err != nil {
