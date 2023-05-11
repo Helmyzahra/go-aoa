@@ -38,6 +38,7 @@ func NewTestCmd(t *testing.T, data interface{}) *TestCmd {
 	return &TestCmd{T: t, Data: data}
 }
 
+
 type TestCmd struct {
 	// For total convenience, all testing methods are available.
 	*testing.T
