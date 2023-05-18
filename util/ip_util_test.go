@@ -23,7 +23,6 @@ func TestGetLocalIP(t *testing.T) {
 	fmt.Println(GetLocalIP())
 }
 
-
 func TestShuffle2(t *testing.T) {
 	fmt.Println(Shuffle(0,101))
 }
