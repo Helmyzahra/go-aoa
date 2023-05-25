@@ -27,6 +27,7 @@ func TestHTTPErrorResponseWithDelete(t *testing.T) {
 	testHTTPErrorResponse(t, http.MethodDelete, contentType, "", http.StatusMethodNotAllowed)
 }
 
+
 func TestHTTPErrorResponseWithPut(t *testing.T) {
 	testHTTPErrorResponse(t, http.MethodPut, contentType, "", http.StatusMethodNotAllowed)
 }
