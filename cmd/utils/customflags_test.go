@@ -31,6 +31,7 @@ func TestPathExpansion(t *testing.T) {
 		"$DDDXXX/a/b":        "/tmp/a/b",
 		"/a/b/":              "/a/b",
 	}
+	
 	os.Setenv("DDDXXX", "/tmp")
 	for test, expected := range tests {
 		got := expandPath(test)
