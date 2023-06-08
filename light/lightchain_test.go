@@ -49,6 +49,7 @@ func makeHeaderChain(parent *types.Header, n int, db emdb.Database, seed int) []
 	return headers
 }
 
+
 // newCanonical creates a chain database, and injects a deterministic canonical
 // chain. Depending on the full flag, if creates either a full block chain or a
 // header only chain.
