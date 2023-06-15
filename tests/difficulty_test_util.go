@@ -24,7 +24,6 @@ import (
 )
 
 //go:generate gencodec -type DifficultyTest -field-override difficultyTestMarshaling -out gen_difficultytest.go
-
 type DifficultyTest struct {
 	ParentTimestamp    *big.Int    `json:"parentTimestamp"`
 	ParentDifficulty   *big.Int    `json:"parentDifficulty"`
